@@ -1,0 +1,10 @@
+Alice: 8.5
+Bob: 4.2
+Charlie: 7.0
+Daisy: 5.5
+Edward: 9.0
+Fiona: 6.5
+George: 3.8
+Hannah: 10.0
+Ian: 5.9
+Julia: 7.2
