@@ -2,6 +2,8 @@
 
 # Ler o arquivo com as notas
 with open("notas.txt", "r", encoding="utf-8") as arquivo:
+
+    # Analisar cada linha
     for linha in arquivo:
         dados = linha.split(":")
         # print(dados)
@@ -10,6 +12,7 @@ with open("notas.txt", "r", encoding="utf-8") as arquivo:
         nota = float(dados[1].strip())
         # print(f"Processando aluno {nome_aluno} com a nota {nota}")
 
+        # Classificar as notas
         if (nota >= 9):
             classificacao = "APROVADO COM EXCELÊNCIA"
         elif (nota >= 7):
