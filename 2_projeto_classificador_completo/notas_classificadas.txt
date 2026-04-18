@@ -1,0 +1,10 @@
+- Alice (8.5) -> APROVADO
+- Bob (4.2) -> REPROVADO
+- Charlie (7.0) -> APROVADO
+- Daisy (5.5) -> EM RECUPERAÇÃO
+- Edward (9.0) -> APROVADO COM EXCELÊNCIA
+- Fiona (6.5) -> EM RECUPERAÇÃO
+- George (3.8) -> REPROVADO
+- Hannah (10.0) -> APROVADO COM EXCELÊNCIA
+- Ian (5.9) -> EM RECUPERAÇÃO
+- Julia (7.2) -> APROVADO
