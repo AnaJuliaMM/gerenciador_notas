@@ -1,17 +1,7 @@
-import os
-
-nome_arquivo_notas = "notas.txt"
-nome_arquivo_classificacao = "notas_classificadas.txt"
-
-# Caso o arquivo não exista, criar o arquivo
-if not os.path.exists(nome_arquivo_notas):
-    with open(nome_arquivo_classificacao, "w", encoding="utf-8") as arquivo:
-        print("Arquivo criado")
-
 # Abrir o arquivo de entrada e o arquivo de saida
 with (
-    open(nome_arquivo_notas, "r", encoding="utf-8") as arquivo_notas,
-    open(nome_arquivo_classificacao, "w", encoding="utf-8") as arquivo_classificacao,
+    open("notas.txt", "r", encoding="utf-8") as arquivo_notas,
+    open("notas_classificadas.txt", "w", encoding="utf-8") as arquivo_classificacao,
 ):
     for linha in arquivo_notas:
         dados = linha.split(":")
